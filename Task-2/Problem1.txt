@@ -1,0 +1,20 @@
+Function Main
+    Declare Integer num, i, a
+    
+    Input num
+    Assign a = 0
+    If num<0
+        Assign num = -num
+    End
+    For i = 0 to num step 3
+        If i==num
+            Assign i = num+1
+            Assign a = 1
+        End
+    End
+    If a==1
+        Output "true"
+    False:
+        Output "false"
+    End
+End
