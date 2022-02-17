@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer check, a, b, c, d
+    
+    Input check
+    Assign b = 0
+    Assign c = 1
+    Assign a = 0
+    While a<check
+        Assign a = a+1
+        Assign d = b+c
+        Assign b = c
+        Assign c = d
+    End
+    Output b
+End
